@@ -1,0 +1,179 @@
+(footprint "LEDRD254W57D500H1070"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.04 -3.708 0)
+		(layer "F.SilkS")
+		(uuid "3f834e2f-f567-48b0-9e9b-6a959f168f27")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LEDRD254W57D500H1070"
+		(at 7.66 3.708 0)
+		(layer "F.Fab")
+		(uuid "a4a9ba2a-bf90-4836-85c4-b2e97dcc5695")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4feafe14-b2a2-481f-aed0-70c4929d097f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72d56f2b-7fd3-427b-8df2-18788ef8dca9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -1.566)
+		(end -2.5 1.566)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4beb56df-f074-4428-9aea-052d06fc4f2b")
+	)
+	(fp_arc
+		(start -2.5 -1.566)
+		(mid 2.961291 0)
+		(end -2.5 1.566)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78537bbd-6555-437f-9852-9d81b7237ca6")
+	)
+	(fp_circle
+		(center -3.2 0)
+		(end -3.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "62c0b1c4-d0ba-44ab-b450-b46d23043f3c")
+	)
+	(fp_line
+		(start -2.75 -1.64)
+		(end -2.75 1.64)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "495d4efe-4ef4-44b9-aec3-17a881aaf294")
+	)
+	(fp_arc
+		(start -2.75 -1.64)
+		(mid 3.214145 0)
+		(end -2.75 1.64)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db790fa3-b52c-446d-803a-4821a1bf1ff2")
+	)
+	(fp_line
+		(start -2.5 -1.566)
+		(end -2.5 1.566)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c869c9e-6964-4559-ab7c-60e354dcc5ec")
+	)
+	(fp_arc
+		(start -2.5 -1.566)
+		(mid 2.961291 0)
+		(end -2.5 1.566)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "11fe61cb-1203-4ddc-b27c-3bb0a790fd79")
+	)
+	(fp_circle
+		(center -3.2 0)
+		(end -3.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "52ced40f-8f44-4fe5-beda-da05c3e554bd")
+	)
+	(pad "A" thru_hole circle
+		(at 1.27 0)
+		(size 1.815 1.815)
+		(drill 1.21)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "946e0e47-ddf7-40ee-a3b9-fce4d5ba9f49")
+	)
+	(pad "C" thru_hole rect
+		(at -1.27 0)
+		(size 1.815 1.815)
+		(drill 1.21)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b3da0e23-ef18-428b-a2d5-7145a57b7b15")
+	)
+	(embedded_fonts no)
+	(model "/home/fabio/hardware projects/pathfinder/pathfinder/libs/led/L08R5000Q1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/fabio/hardware projects/pathfinder/pathfinder/libs/led/L08R5000Q1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
